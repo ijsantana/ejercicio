@@ -1,4 +1,6 @@
-public class EJERCICIO {
+package EjerciciosDeEjemplo;
+
+public class Ejercicio {
 
     public static void main(String[] args) {
 
@@ -19,13 +21,6 @@ public class EJERCICIO {
 
         String nombreCompleto  = nombre + ",coloradito " + apellido;
         System.out.println(nombreCompleto);
-
-
-
-
-
-
-
 
 
     }
