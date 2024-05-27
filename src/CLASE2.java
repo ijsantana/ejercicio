@@ -6,6 +6,7 @@ public class CLASE2 {
     //VARIABLE DE SALIDA -> Y (LO QUE ME DEVUELVE)
     //VARIABLES DE ENTRADA -> x, z, w (LO QUE INGRESO)
     //FIRMA DE UNA FUNCION -> LO QUE LA HACE UNICA ->   TipoDeAccesoALaFuncion      TipoDeVariableDeSalida      nombreDeLaFuncion (VariablesDeEntrada, ....)
+String
 
     public static void main(String[] args) {
         String localidad = obtenerLocalidad("1234");
@@ -18,6 +19,8 @@ public class CLASE2 {
     private static String obtenerLocalidad(String codigoPostal){
         return "victoria";
     }
+
+
 
 
 }
