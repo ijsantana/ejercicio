@@ -1,4 +1,6 @@
-public class CLASE2 {
+package EjerciciosDeEjemplo;
+
+public class Clase2 {
 
 
     //FUNCIONES!!!
@@ -15,7 +17,7 @@ String
 
 
     //FUNCION
-    //TIPO DE ACCESO -> PUBLIC (ACCESO PUBLICO EN CUALQUIER PARTE DEL PROYECTO) / PRIVATE (SOLO ACCEDO DESDE CLASE2) / PROTECTED
+    //TIPO DE ACCESO -> PUBLIC (ACCESO PUBLICO EN CUALQUIER PARTE DEL PROYECTO) / PRIVATE (SOLO ACCEDO DESDE EjerciciosDeEjemplo.CLASE2) / PROTECTED
     private static String obtenerLocalidad(String codigoPostal){
         return "victoria";
     }
