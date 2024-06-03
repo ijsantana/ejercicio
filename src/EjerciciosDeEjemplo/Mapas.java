@@ -1,6 +1,7 @@
 package EjerciciosDeEjemplo;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -40,6 +41,7 @@ public class Mapas {
         mapaFechas.put("Argentina",LocalDate.of(2024,05,27));
         mapaFechas.put("Uruguay",LocalDate.of(2024,05,27));
         mapaFechas.put("China",LocalDate.of(2024,05,28));
+        mapaFechas.put("Italia", LocalDate.parse("2024-12-01", DateTimeFormatter.ofPattern("yyyy%MM%ddhh:mm:ss")));
 
 
         LocalDate FechaEnArg = mapaFechas.get("Argentina");
